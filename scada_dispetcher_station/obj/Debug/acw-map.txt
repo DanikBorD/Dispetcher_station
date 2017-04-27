@@ -1,0 +1,4 @@
+scada_dispetcher_station.MainActivity, scada_dispetcher_station;md5c8424e7ead14cd6c83becdf154d061b5.MainActivity
+scada_dispetcher_station.MainActivity, scada_dispetcher_station, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c8424e7ead14cd6c83becdf154d061b5.MainActivity
+scada_dispetcher_station.MainActivity;md5c8424e7ead14cd6c83becdf154d061b5.MainActivity
+scada_dispetcher_station.MainActivity;md5c8424e7ead14cd6c83becdf154d061b5.MainActivity

@@ -1,0 +1,50 @@
+[Activity(Label = "CONNECT", MainLauncher = false, Icon = "@drawable/icon")]
+    public class Connect : Activity
+    {
+        //public mcOMRON.OmronPLC plc;
+        //this.plc = new mcOMRON.OmronPLC(mcOMRON.TransportType.Tcp);     
+
+        public bool IsConnect(string ip, string port)
+        {
+            bool IsOK = false;
+            //if (ip == "") return;
+            //if (port == "") return;
+
+            //    try
+            //    {
+            //        mcOMRON.tcpFINSCommand tcpCommand = ((mcOMRON.tcpFINSCommand)plc.FinsCommand);
+            //        tcpCommand.SetTCPParams(IPAddress.Parse(ip), Convert.ToInt32(port));
+
+            //        if (! plc.Connect())
+            //        {
+            //            throw new Exception(plc.LastError);
+            //        }
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        return IsOK;
+            //        MessageBox.Show("Connect() error: " + ex.Message);
+            //    }
+
+            //try
+            //            {
+            //                if (!plc.finsConnectionDataRead(0))
+            //                {
+            //                    throw new Exception(plc.LastError);
+            //                }
+
+            //                messegeList_connect.Text = plc.LastDialog("CONTROLLER DATA READ");
+            //                messegeList_connect.AppendText("CONTROLLER: " + Encoding.ASCII.GetString(plc.FinsCommand.Response, 0, 20));
+            //                messegeList_connect.AppendText(Environment.NewLine);
+            //                messegeList_connect.AppendText("VERSION: " + Encoding.ASCII.GetString(plc.FinsCommand.Response, 20, 20));
+            //            }
+            //            catch (Exception ex)
+            //            {
+            //                return IsOK;
+            //                MessageBox.Show("ControllerDataRead() error: " + ex.Message);
+            //            }
+            IsOK = true;
+
+            return IsOK;
+        }
+    }

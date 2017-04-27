@@ -1,0 +1,16 @@
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\bin\Debug\scada_dispetcher_station.dll
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\bin\Debug\scada_dispetcher_station.pdb
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\bin\Debug\scada_dispetcher_station.scada_dispetcher_station.apk
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\bin\Debug\scada_dispetcher_station.scada_dispetcher_station-Signed.apk
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.dll
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.pdb
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\bin\scada_dispetcher_station.scada_dispetcher_station.apk
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\res\layout\connect.xml
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\res\layout\main.xml
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\res\values\strings.xml
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\res\drawable\icon.png
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\res\drawable\scada_connect.png
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\R.cs.flag
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\uploadflags.txt
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.dll.mdb
+c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\bin\Debug\scada_dispetcher_station.dll.mdb
