@@ -14,3 +14,6 @@ c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\sc
 c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\uploadflags.txt
 c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.dll.mdb
 c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\bin\Debug\scada_dispetcher_station.dll.mdb
+C:\Users\danil\Desktop\crfls\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.csprojResolveAssemblyReference.cache
+C:\Users\danil\Desktop\crfls\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.dll
+C:\Users\danil\Desktop\crfls\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\scada_dispetcher_station.pdb

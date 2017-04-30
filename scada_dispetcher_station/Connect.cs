@@ -21,45 +21,45 @@ namespace scada_dispetcher_station
         public bool IsConnect(string ip, string port)
         {
             bool IsOK = false;
-            //if (ip == "") return;
-            //if (port == "") return;
+            if (ip == "") return;
+            if (port == "") return;
 
-            //    try
-            //    {
-            //        mcOMRON.tcpFINSCommand tcpCommand = ((mcOMRON.tcpFINSCommand)plc.FinsCommand);
-            //        tcpCommand.SetTCPParams(IPAddress.Parse(ip), Convert.ToInt32(port));
+            try
+            {
+                mcomron.tcpfinscommand tcpcommand = ((mcomron.tcpfinscommand)plc.finscommand);
+                tcpcommand.settcpparams(ipaddress.parse(ip), convert.toint32(port));
 
-            //        if (! plc.Connect())
-            //        {
-            //            throw new Exception(plc.LastError);
-            //        }
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        return IsOK;
-            //        MessageBox.Show("Connect() error: " + ex.Message);
-            //    }
+                if (!plc.connect())
+                {
+                    throw new exception(plc.lasterror);
+                }
+            }
+            catch (exception ex)
+            {
+                return isok;
+            }
 
-            //try
-            //            {
-            //                if (!plc.finsConnectionDataRead(0))
-            //                {
-            //                    throw new Exception(plc.LastError);
-            //                }
+            try
+            {
+                if (!plc.finsconnectiondataread(0))
+                {
+                    throw new exception(plc.lasterror);
+                }
 
-            //                messegeList_connect.Text = plc.LastDialog("CONTROLLER DATA READ");
-            //                messegeList_connect.AppendText("CONTROLLER: " + Encoding.ASCII.GetString(plc.FinsCommand.Response, 0, 20));
-            //                messegeList_connect.AppendText(Environment.NewLine);
-            //                messegeList_connect.AppendText("VERSION: " + Encoding.ASCII.GetString(plc.FinsCommand.Response, 20, 20));
-            //            }
-            //            catch (Exception ex)
-            //            {
-            //                return IsOK;
-            //                MessageBox.Show("ControllerDataRead() error: " + ex.Message);
-            //            }
+            }
+            catch (exception ex)
+            {
+                return isok;
+            }
             IsOK = true;
 
             return IsOK;
+        }
+        async bool AlertConnectFalse()
+        {
+            bool result = await DisplayAlert("Соединение прошло неудачно", "Вы хотите повторить?", "Да", "Нет");
+            await DisplayAlert("Уведомление", "Вы выбрали: " + (result ? "Повторить" : "Отменить"), "OK");
+            return result;
         }
     }
 }
