@@ -13,15 +13,15 @@ using System.Threading.Tasks;
 
 namespace scada_dispetcher_station
 {
-    class Conditional
+    class Heater
     {
-        ToggleButton btn = FindViewById<ToggleButton>(Resource.Layout.ConditionalToggleButton);
-        TextView txtView = FindViewById<TextView>(Resource.Layout.ConditionalTemperatureTextView);
+        ToggleButton btn = FindViewById<ToggleButton>(Resource.Layout.HeaterToggleButton);
+        TextView txtView = FindViewById<TextView>(Resource.Layout.HeaterTemperatureTextView);
         Connect cnn;
         public UInt16 readConditional;
         public UInt16 statusConditional;
 
-        public Conditional()
+        public Heater()
         {
             this.cnn = cnn;
         }
@@ -29,8 +29,8 @@ namespace scada_dispetcher_station
         private async Task<bool> TurnOnOff(UInt16 onoff)
         {
             //bool result = false;
-            //UInt16 dm_position = 6;
- 
+            //UInt16 dm_position = 7;
+
             //try
             //{
             //    result = cnn.plc.WriteCIO(Convert.ToUInt16(dm_position), onoff);
@@ -51,7 +51,7 @@ namespace scada_dispetcher_station
             {
                 btn.Activated = true;
                 //txtView.Text = ReadDM().ToString();
-                txtView.Text = "0";
+                txtView.Text = "15";
             }
             else
             {
@@ -59,14 +59,14 @@ namespace scada_dispetcher_station
                 txtView.Text = "-";
             }
             return true;
-            
+
         }
 
 
         private async Task<bool> SetValue(UInt16 value)
         {
             //bool result = false;
-            //UInt16 dm_position = 6;
+            //UInt16 dm_position = 7;
             //byte valuebites = Convert.ToByte(value);
             //try
             //{
@@ -89,14 +89,14 @@ namespace scada_dispetcher_station
             return true;
         }
 
-       
+
 
         public async Task<UInt16> ReadDM()
         {
             //UInt16 result = 0;
-            //UInt16 dm_position = 116;
+            //UInt16 dm_position = 120;
 
-            //readConditional = 0;
+            //readHeater = 0;
             //bool in_2_0 = false;
             //bool in_2_1 = false;
             //bool in_2_2 = false;
@@ -104,21 +104,21 @@ namespace scada_dispetcher_station
 
             //try
             //{
-            //    result = cnn.plc.ReadDM(dm_position, ref statusConditional);
-            //    if (!cnn.plc.ReadDM(dm_position, ref statusConditional))
+            //    result = cnn.plc.ReadDM(dm_position, ref statusHeater);
+            //    if (!cnn.plc.ReadDM(dm_position, ref statusHeater))
             //    {
             //        throw new Exception(this.cnc.plc.LastError);
             //    }
 
-            //    if ((Convert.ToUInt16(statusConditional) & Convert.ToUInt16(1)) == Convert.ToUInt16(1)) in_2_0 = true;
-            //    if ((Convert.ToUInt16(statusConditional) & Convert.ToUInt16(2)) == Convert.ToUInt16(2)) in_2_1 = true;
-            //    if ((Convert.ToUInt16(statusConditional) & Convert.ToUInt16(4)) == Convert.ToUInt16(4)) in_2_2 = true;
-            //    if ((Convert.ToUInt16(statusConditional) & Convert.ToUInt16(8)) == Convert.ToUInt16(8)) in_2_3 = true;
+            //    if ((Convert.ToUInt16(statusHeater) & Convert.ToUInt16(1)) == Convert.ToUInt16(1)) in_2_0 = true;
+            //    if ((Convert.ToUInt16(statusHeater) & Convert.ToUInt16(2)) == Convert.ToUInt16(2)) in_2_1 = true;
+            //    if ((Convert.ToUInt16(statusHeater) & Convert.ToUInt16(4)) == Convert.ToUInt16(4)) in_2_2 = true;
+            //    if ((Convert.ToUInt16(statusHeater) & Convert.ToUInt16(8)) == Convert.ToUInt16(8)) in_2_3 = true;
 
             //}
             //catch (Exception ex)
             //{
-            //    //MessageBox.Show("ReadDM() Error: " + ex.Message + ex.Source);              !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //    //MessageBox.Show("ReadDM() Error: " + ex.Message + ex.Source);              
             //}
             //txtView.Text = result.ToString();
             //return result;

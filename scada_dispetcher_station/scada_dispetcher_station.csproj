@@ -60,6 +60,7 @@
     <Compile Include="Connect.cs" />
     <Compile Include="Control.cs" />
     <Compile Include="Flap.cs" />
+    <Compile Include="Heater.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
