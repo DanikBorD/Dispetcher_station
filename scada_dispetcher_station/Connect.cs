@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using System.Threading.Tasks;
 
 namespace scada_dispetcher_station
 {
@@ -21,45 +22,46 @@ namespace scada_dispetcher_station
         public bool IsConnect(string ip, string port)
         {
             bool IsOK = false;
-            if (ip == "") return;
-            if (port == "") return;
+            if (ip == "" || port == "") return IsOK;
 
-            try
-            {
-                mcomron.tcpfinscommand tcpcommand = ((mcomron.tcpfinscommand)plc.finscommand);
-                tcpcommand.settcpparams(ipaddress.parse(ip), convert.toint32(port));
 
-                if (!plc.connect())
-                {
-                    throw new exception(plc.lasterror);
-                }
-            }
-            catch (exception ex)
-            {
-                return isok;
-            }
+            //try
+            //{
+            //    mcomron.tcpfinscommand tcpcommand = ((mcomron.tcpfinscommand)plc.finscommand);
+            //    tcpcommand.settcpparams(ipaddress.parse(ip), convert.toint32(port));
 
-            try
-            {
-                if (!plc.finsconnectiondataread(0))
-                {
-                    throw new exception(plc.lasterror);
-                }
+            //    if (!plc.connect())
+            //    {
+            //        throw new exception(plc.lasterror);
+            //    }
+            //}
+            //catch (exception ex)
+            //{
+            //    return isok;
+            //}
 
-            }
-            catch (exception ex)
-            {
-                return isok;
-            }
-            IsOK = true;
+            //try
+            //{
+            //    if (!plc.finsconnectiondataread(0))
+            //    {
+            //        throw new exception(plc.lasterror);
+            //    }
+
+            //}
+            //catch (exception ex)
+            //{
+            //    return isok;
+            //}
+            //IsOK = true;
 
             return IsOK;
         }
-        async bool AlertConnectFalse()
+        public async void AlertConnectFalse()
         {
-            bool result = await DisplayAlert("Соединение прошло неудачно", "Вы хотите повторить?", "Да", "Нет");
-            await DisplayAlert("Уведомление", "Вы выбрали: " + (result ? "Повторить" : "Отменить"), "OK");
-            return result;
+            DisplayAlert("Уведомление", "Соединение прошло неудачно", "OK");                 !!!!!!!!!!!!!!!!!!!!!!!
+            //bool result = DisplayAlert("Соединение прошло неудачно", "Вы хотите повторить?", "Да", "Нет");
+            //await DisplayAlert("Уведомление", "Вы выбрали: " + (result ? "Повторить" : "Отменить"), "OK");
+            //return result;
         }
     }
 }

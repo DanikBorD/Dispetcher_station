@@ -10,8 +10,10 @@ namespace scada_dispetcher_station
         EditText ip;
         EditText port;
         Button connectBtn;
-        bool isSuccessConnect = false;
+        bool isSuccessConnect = true;
         Termometr trm;
+        string ipText = "";
+        string portText = "";
 
         ip = FindViewById<EditText>(Resource.Id.IP);
         port = FindViewById<EditText>(Resource.Id.PORT);
@@ -27,23 +29,15 @@ namespace scada_dispetcher_station
             {
                 connectBtn.Click += delegate
                 {
-                    string ipText = ip.Text;
-                    string portText = port.Text;
+                    ipText = ip.Text;
+                    portText = port.Text;
                 };
-                if (!(cnn.IsConnect(ip, port)))
+                if (!(cnn.IsConnect(ipText, portText)))
                 {
-                    bool result = cnn.AlertConnectFalse();
-                    if(result)
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        await DisplayAlert("Уведомление", "Приложение закрывается", "OK");
-                        return;
-                    }
+                    cnn.AlertConnectFalse();
+                    continue;
+                    
                 }
-                isSuccessConnect = true;
                 await DisplayAlert("Уведомление", "Соединение прошло успешно!", "OK");
             }
             // Переход к другому экрану

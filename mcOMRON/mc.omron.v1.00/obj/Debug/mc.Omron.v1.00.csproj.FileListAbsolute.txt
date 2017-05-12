@@ -1,0 +1,8 @@
+G:\моя флешка\Важно!!! Проекты\Scada\mcOMRON\mc.omron.v1.00\bin\Debug\mc.Omron.v1.00.dll
+G:\моя флешка\Важно!!! Проекты\Scada\mcOMRON\mc.omron.v1.00\bin\Debug\mc.Omron.v1.00.pdb
+G:\моя флешка\Важно!!! Проекты\Scada\mcOMRON\mc.omron.v1.00\obj\Debug\mc.Omron.v1.00.dll
+G:\моя флешка\Важно!!! Проекты\Scada\mcOMRON\mc.omron.v1.00\obj\Debug\mc.Omron.v1.00.pdb
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\mcOMRON\mc.omron.v1.00\bin\Debug\mc.Omron.v1.00.dll
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\mcOMRON\mc.omron.v1.00\bin\Debug\mc.Omron.v1.00.pdb
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\mcOMRON\mc.omron.v1.00\obj\Debug\mc.Omron.v1.00.dll
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\mcOMRON\mc.omron.v1.00\obj\Debug\mc.Omron.v1.00.pdb
