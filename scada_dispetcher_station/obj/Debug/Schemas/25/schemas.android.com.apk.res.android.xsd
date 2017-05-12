@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>12.05.2017 16:02:28</xs:documentation>
+    <xs:documentation>12.05.2017 16:11:37</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -775,6 +775,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -1412,6 +1413,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -2089,6 +2091,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -2454,6 +2457,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -2770,6 +2774,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -3396,6 +3401,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -3715,6 +3721,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -4050,6 +4057,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -4328,6 +4336,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -4583,6 +4592,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -5276,6 +5286,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -5697,6 +5708,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -6083,6 +6095,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -6563,6 +6576,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -6879,6 +6893,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -7195,6 +7210,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -7551,6 +7567,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -7867,6 +7884,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -8294,6 +8312,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -8666,6 +8685,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -8945,6 +8965,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -9383,6 +9404,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -9794,6 +9816,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -10323,6 +10346,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -10790,6 +10814,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -11268,6 +11293,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -11883,6 +11909,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -12120,6 +12147,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -12357,6 +12385,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -12594,6 +12623,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -12831,6 +12861,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -13068,6 +13099,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -13305,6 +13337,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -13542,6 +13575,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -13974,6 +14008,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -14238,6 +14273,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -14475,6 +14511,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -14712,6 +14749,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -14949,6 +14987,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -15226,6 +15265,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -15463,6 +15503,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -15779,6 +15820,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -16056,6 +16098,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -16385,6 +16428,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -16622,6 +16666,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -17088,6 +17133,7 @@
             <xs:enumeration value="@id/DownRoomTemperatureButton" />
             <xs:enumeration value="@id/HeaterTemperatureTextView" />
             <xs:enumeration value="@id/HeaterToggleButton" />
+            <xs:enumeration value="@id/imageButton1" />
             <xs:enumeration value="@id/ip" />
             <xs:enumeration value="@id/IsAutomaticCheckBox" />
             <xs:enumeration value="@id/linearLayout1" />
@@ -17181,6 +17227,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -17528,6 +17575,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -17860,6 +17908,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -18426,6 +18475,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -18749,6 +18799,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -19146,6 +19197,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -19503,6 +19555,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -19756,6 +19809,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -20454,6 +20508,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -20813,6 +20868,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -21807,6 +21863,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -22056,6 +22113,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -22334,6 +22392,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -22611,6 +22670,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -22848,6 +22908,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -23085,6 +23146,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -23322,6 +23384,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -23559,6 +23622,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -24273,6 +24337,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -24527,6 +24592,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -24843,6 +24909,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -25587,6 +25654,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -25943,6 +26011,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -26362,6 +26431,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -26710,6 +26780,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -26947,6 +27018,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -27729,6 +27801,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -27966,6 +28039,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -28203,6 +28277,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -28440,6 +28515,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -28857,6 +28933,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -29094,6 +29171,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -29500,6 +29578,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -29737,6 +29816,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -30053,6 +30133,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -30734,6 +30815,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -31265,6 +31347,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -31639,6 +31722,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -32837,6 +32921,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -33115,6 +33200,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -33444,6 +33530,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -33761,6 +33848,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -33998,6 +34086,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -34275,6 +34364,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -34512,6 +34602,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -34896,6 +34987,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -35133,6 +35225,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -35449,6 +35542,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -35765,6 +35859,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -36081,6 +36176,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -36397,6 +36493,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -36660,6 +36757,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -36897,6 +36995,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -37134,6 +37233,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -37371,6 +37471,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -37608,6 +37709,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -37845,6 +37947,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -38082,6 +38185,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -38493,6 +38597,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -38730,6 +38835,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -38967,6 +39073,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -40151,6 +40258,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -40572,6 +40680,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -41321,6 +41430,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -41730,6 +41840,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -42484,6 +42595,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -42948,6 +43060,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -43201,6 +43314,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -43438,6 +43552,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -43675,6 +43790,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -43991,6 +44107,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -44359,6 +44476,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />
@@ -44596,6 +44714,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/accept" />
             <xs:enumeration value="@drawable/down" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/scada_connect" />

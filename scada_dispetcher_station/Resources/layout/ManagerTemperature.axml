@@ -7,7 +7,7 @@
     <CheckBox
         android:text="Автоматический режим"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50"
         android:id="@+id/IsAutomaticCheckBox"
         android:background="@android:color/holo_green_dark"
         android:textSize="20" />
@@ -183,4 +183,12 @@
             android:scaleType="centerCrop"
             android:layout_marginLeft="1.5dp" />
     </LinearLayout>
+    <ImageButton
+        android:src="@drawable/accept"
+        android:layout_width="179.0dp"
+        android:layout_height="68.5dp"
+        android:id="@+id/imageButton1"
+        android:layout_gravity="center"
+        android:layout_marginTop="60"
+        android:scaleType="fitCenter" />
 </LinearLayout>
