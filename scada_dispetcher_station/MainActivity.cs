@@ -9,12 +9,7 @@ namespace scada_dispetcher_station
     [Activity(Label = "scada_dispetcher_station", MainLauncher = false, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        Termometr trmInside;
-        Termometr trmTop;
-        Termometr trmFan;
-        Termometr trmStreet;
-        Flap flapIndide;
-        Flap flapStreet;
+
         Button changeBtn;
 
         protected override async void OnCreate(Bundle bundle)
@@ -23,14 +18,14 @@ namespace scada_dispetcher_station
             SetContentView (Resource.Layout.Main);
             InitTimer();
 
-            trmInside = new Termometr(1);
-            trmTop = new Termometr(2);
-            trmFan = new Termometr(3);
-            trmStreet = new Termometr(4);
-            flapIndide = new Flap(1);
-            flapStreet = new Flap(2);
-            changeBtn = FindViewById<Button>(Resource.Layout.changeTemperatureBtn);
+            Manager manager = new Manager();
 
+            changeBtn = FindViewById<Button>(Resource.Layout.changeTemperatureBtn);
+            changeBtn.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(Setting));
+                StartActivity(intent);
+            };
 
             // Переход к другому экрану
         }

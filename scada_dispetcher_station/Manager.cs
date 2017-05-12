@@ -15,18 +15,20 @@ namespace scada_dispetcher_station
 {
     class Manager
     {
-        public static void InitTimer()
-        {
-            int num = 0;
-            // устанавливаем метод обратного вызова
-            TimerCallback tm = new TimerCallback(AgainstActions);
-            // создаем таймер
-            Timer timer = new Timer(tm, num, 0, 2000);
-        }
+        Termometr trmInside = new Termometr(1);
+        Termometr trmTop = new Termometr(2);
+        Termometr trmFan = new Termometr(3);
+        Termometr trmStreet = new Termometr(4);
+        Flap flapIndide = new Flap(1);
+        Flap flapStreet = new Flap(2);
+        Conditional cond = new Conditional();
+        Heater heat = new Heater();
 
-        public static void AgainstActions(object obj)
+        public Manager() { }
+
+        public void Actionss()
         {
-            
+
         }
     }
     
