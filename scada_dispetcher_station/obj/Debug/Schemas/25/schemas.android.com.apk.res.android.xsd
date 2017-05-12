@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>12.05.2017 15:37:57</xs:documentation>
+    <xs:documentation>12.05.2017 15:55:35</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17079,11 +17079,14 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkedTextView1" />
             <xs:enumeration value="@id/changeTemperatureBtn" />
-            <xs:enumeration value="@id/checkBox1" />
+            <xs:enumeration value="@id/ConditionalTemperatureTextView" />
+            <xs:enumeration value="@id/ConditionalToggleButton" />
             <xs:enumeration value="@id/connectBtn" />
             <xs:enumeration value="@id/connectImage" />
+            <xs:enumeration value="@id/DownConditionalTemperatureButton" />
             <xs:enumeration value="@id/DownRoomTemperatureButton" />
             <xs:enumeration value="@id/ip" />
+            <xs:enumeration value="@id/IsAutomaticCheckBox" />
             <xs:enumeration value="@id/linearLayout1" />
             <xs:enumeration value="@id/linearLayout2" />
             <xs:enumeration value="@id/linearLayout3" />
@@ -17094,6 +17097,7 @@
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
+            <xs:enumeration value="@id/UpConditionalTemperatureButton" />
             <xs:enumeration value="@id/UpRoomTemperatureButton" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
