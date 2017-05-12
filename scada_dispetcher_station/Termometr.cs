@@ -29,7 +29,7 @@ namespace scada_dispetcher_station
             this.NumberOfTemometer = numberOfTermometer;
         }
 
-        private async Task<UInt16> ReadDM()
+        public async Task<UInt16> ReadDM()
         {
             //UInt16 dm_position;
 

@@ -28,9 +28,15 @@ namespace scada_dispetcher_station
 
         public void Actionss()
         {
-
+            trmInside.ReadDM();
+            trmTop.ReadDM();
+            trmFan.ReadDM();
+            trmStreet.ReadDM();
+            flapIndide.ReadDM();
+            flapStreet.ReadDM();
+            cond.ReadDM();
+            heat.ReadDM();
         }
     }
     
-}
 }

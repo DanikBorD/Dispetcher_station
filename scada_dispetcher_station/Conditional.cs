@@ -26,7 +26,7 @@ namespace scada_dispetcher_station
             this.cnn = cnn;
         }
 
-        private async Task<bool> TurnOnOff(UInt16 onoff)
+        public async Task<bool> TurnOnOff(UInt16 onoff)
         {
             //bool result = false;
             //UInt16 dm_position = 6;
@@ -63,7 +63,7 @@ namespace scada_dispetcher_station
         }
 
 
-        private async Task<bool> SetValue(UInt16 value)
+        public async Task<bool> SetValue(UInt16 value)
         {
             //bool result = false;
             //UInt16 dm_position = 6;

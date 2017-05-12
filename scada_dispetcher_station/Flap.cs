@@ -28,7 +28,7 @@ namespace scada_dispetcher_station
             this.NumberOfFlap = numberOfFlap;
         }
 
-        private async Task<bool> WriteOpen()
+        public async Task<bool> WriteOpen()
         {
             //bool result = false;
             //UInt16 dm_position = 5;
@@ -58,7 +58,7 @@ namespace scada_dispetcher_station
             return true;
         }
 
-        private async Task<bool> WriteClose()
+        public async Task<bool> WriteClose()
         {
             //bool result = false;
             //UInt16 dm_position = 5;
