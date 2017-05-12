@@ -56,7 +56,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conditional.cs" />
     <Compile Include="Connect.cs" />
+    <Compile Include="Control.cs" />
     <Compile Include="Flap.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

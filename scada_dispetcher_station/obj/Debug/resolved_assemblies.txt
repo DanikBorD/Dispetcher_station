@@ -1,24 +1,25 @@
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\scada_dispetcher_station.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Java.Interop.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Microsoft.CSharp.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Mono.Android.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\mscorlib.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Core.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Xml.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Xml.Linq.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Threading.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Collections.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Collections.Concurrent.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Reflection.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Linq.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.Extensions.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Reflection.Extensions.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Mono.CSharp.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Net.Http.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.Serialization.dll
-c:\users\danil\documents\visual studio 2017\Projects\scada_dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\scada_dispetcher_station.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Java.Interop.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Microsoft.CSharp.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Mono.Android.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\mscorlib.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Core.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Xml.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Xml.Linq.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\mc.Omron.v1.00.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Threading.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Collections.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Collections.Concurrent.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Reflection.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Linq.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.Extensions.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Reflection.Extensions.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\Mono.CSharp.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Net.Http.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.Runtime.Serialization.dll
+D:\scada\Dispetcher_station\scada_dispetcher_station\obj\Debug\android\assets\System.ServiceModel.Internals.dll

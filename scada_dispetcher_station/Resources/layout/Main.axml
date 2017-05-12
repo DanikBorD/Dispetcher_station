@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:textSize="@android:dimen/notification_large_icon_width"
             android:textStyle="normal"
-            android:textColor="@android:color/holo_blue_light" />
+            android:textColor="@android:color/background_dark" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"

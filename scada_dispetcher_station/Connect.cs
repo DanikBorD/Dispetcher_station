@@ -16,10 +16,44 @@ namespace scada_dispetcher_station
     [Activity(Label = "CONNECT", MainLauncher = false, Icon = "@drawable/icon")]
     public class Connect : Activity
     {
-        //public mcOMRON.OmronPLC plc;
-        //this.plc = new mcOMRON.OmronPLC(mcOMRON.TransportType.Tcp);     
+        EditText ip;
+        EditText port;
+        Button connectBtn;
+        bool isSuccessConnect = true;
+        string ipText = "";
+        string portText = "";
 
-        public bool IsConnect(string ip, string port)
+        protected override async void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
+            SetContentView(Resource.Layout.Connect);
+
+            while (isSuccessConnect)
+            {
+                connectBtn.Click += delegate
+                {
+                    ipText = ip.Text;
+                    portText = port.Text;
+                };
+                if (!(IsConnect(ipText, portText)))
+                {
+                    Toast.MakeText(this, "Соединение не установлено, попробуйте еще раз", ToastLength.Long);
+                    continue;
+
+                }
+                Toast.MakeText(this, "Соединение установлено!", ToastLength.Long);
+            }
+
+            Intent intent = new Intent(this, typeof(MainActivity));
+            StartActivity(intent);
+        }
+
+        
+
+    //public mcOMRON.OmronPLC plc;
+    //this.plc = new mcOMRON.OmronPLC(mcOMRON.TransportType.Tcp);     
+
+    public bool IsConnect(string ip, string port)
         {
             bool IsOK = false;
             if (ip == "" || port == "") return IsOK;
@@ -54,14 +88,9 @@ namespace scada_dispetcher_station
             //}
             //IsOK = true;
 
-            return IsOK;
+            //return IsOK;
+            return true;
         }
-        public async void AlertConnectFalse()
-        {
-            DisplayAlert("Уведомление", "Соединение прошло неудачно", "OK");                 !!!!!!!!!!!!!!!!!!!!!!!
-            //bool result = DisplayAlert("Соединение прошло неудачно", "Вы хотите повторить?", "Да", "Нет");
-            //await DisplayAlert("Уведомление", "Вы выбрали: " + (result ? "Повторить" : "Отменить"), "OK");
-            //return result;
-        }
+
     }
 }

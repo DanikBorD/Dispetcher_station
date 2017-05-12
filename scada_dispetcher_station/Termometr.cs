@@ -23,53 +23,54 @@ namespace scada_dispetcher_station
         public int difference;
         public UInt16 tmpFromPLC;
 
-        public Termometr(Connect cnn, int numberOfTermometer)
+        public Termometr(int numberOfTermometer)
         {
             this.cnn = cnn;
             this.NumberOfTemometer = numberOfTermometer;
         }
 
-        private Task<UInt16> ReadDM()
+        private async Task<UInt16> ReadDM()
         {
-            UInt16 dm_position;
+            //UInt16 dm_position;
 
-            if (NumberOfTemometer == 1)
-            {
-                dm_position = 104;
-            }
+            //if (NumberOfTemometer == 1)
+            //{
+            //    dm_position = 104;
+            //}
 
-            else if (NumberOfTemometer == 2)
-            {
-                dm_position = 106;
-            }
-
-
-            else if (NumberOfTemometer == 3)
-            {
-                dm_position = 108;
-            }
+            //else if (NumberOfTemometer == 2)
+            //{
+            //    dm_position = 106;
+            //}
 
 
-            else
-            {
-                dm_position = 110;
-            }
+            //else if (NumberOfTemometer == 3)
+            //{
+            //    dm_position = 108;
+            //}
 
-            try
-            {
-                bool result = cnn.plc.ReadDM(dm_position, ref tmpFromPLC);
-                if (!result)
-                {
-                    throw new Exception(cnn.plc.LastError);
-                }
 
-            }
-            catch (Exception ex)
-            {
-                //MessageBox.Show("ReadDM() Error: " + ex.Message);                         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            }
+            //else
+            //{
+            //    dm_position = 110;
+            //}
 
-            return tmpFromPLC;
+            //try
+            //{
+            //    bool result = cnn.plc.ReadDM(dm_position, ref tmpFromPLC);
+            //    if (!result)
+            //    {
+            //        throw new Exception(cnn.plc.LastError);
+            //    }
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    //MessageBox.Show("ReadDM() Error: " + ex.Message);                         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //}
+
+            //return tmpFromPLC;
+            return 1;
         }
     }
 }
