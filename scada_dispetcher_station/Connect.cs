@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace scada_dispetcher_station
 {
-    [Activity(Label = "CONNECT", MainLauncher = false, Icon = "@drawable/icon")]
+    [Activity(Label = "CONNECT", MainLauncher = true, Icon = "@drawable/icon")]
     public class Connect : Activity
     {
         EditText ip;
@@ -27,6 +27,8 @@ namespace scada_dispetcher_station
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Connect);
+            ip = FindViewById<EditText>(Resource.Layout.ip);
+            port = FindViewById<EditText>(Resource.Layout.port);
 
             while (isSuccessConnect)
             {
@@ -48,12 +50,11 @@ namespace scada_dispetcher_station
             StartActivity(intent);
         }
 
-        
 
     //public mcOMRON.OmronPLC plc;
     //this.plc = new mcOMRON.OmronPLC(mcOMRON.TransportType.Tcp);     
 
-    public bool IsConnect(string ip, string port)
+        public bool IsConnect(string ip, string port)
         {
             bool IsOK = false;
             if (ip == "" || port == "") return IsOK;
