@@ -16,26 +16,25 @@ namespace scada_dispetcher_station
     class Conditional
     {
         ToggleButton btn = FindViewById<ToggleButton>(Resource.Layout.ConditionalToggleButton);
+        TextView txtView = FindViewById<TextView>(Resource.Layout.ConditionalTemperatureTextView);
         Connect cnn;
-        public UInt16 OnOff;
         public UInt16 SetTemperature = Convert.ToUInt16(1);
         public UInt16 readConditional;
         public UInt16 statusConditional;
 
-        public Conditional(int turnOnOff)
+        public Conditional()
         {
             this.cnn = cnn;
-            this.OnOff = (UInt16)turnOnOff;
         }
 
-        private async Task<bool> TurnOnOff()
+        private async Task<bool> TurnOnOff(UInt16 onoff)
         {
             //bool result = false;
             //UInt16 dm_position = 6;
 
             //try
             //{
-            //    result = cnn.plc.WriteCIO(Convert.ToUInt16(dm_position), OnOff);
+            //    result = cnn.plc.WriteCIO(Convert.ToUInt16(dm_position), onoff);
             //    if (!result)
             //    {
             //        throw new Exception(cnn.plc.LastError);
@@ -43,18 +42,22 @@ namespace scada_dispetcher_station
             //}
             //catch (Exception ex)
             //{
-            //    //MessageBox.Show("WriteDM() error: " + ex.Message);            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //    //MessageBox.Show("WriteDM() error: " + ex.Message);           
             //}
 
             //result = true;
             //return result;
-            if(OnOff == 1)
+
+            if (onoff == 1)
             {
                 btn.Activated = true;
+                //txtView.Text = ReadDM().ToString();
+                txtView.Text = "0";
             }
             else
             {
                 btn.Activated = false;
+                txtView.Text = "-";
             }
             return true;
             
@@ -76,12 +79,14 @@ namespace scada_dispetcher_station
             //}
             //catch (Exception ex)
             //{
-            //    //MessageBox.Show("WriteDM() error: " + ex.Message);            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //    //MessageBox.Show("WriteDM() error: " + ex.Message);           
             //}
 
             //result = true;
             //return result;
 
+
+            txtView.Text = SetTemperature.ToString();
             return true;
         }
 
@@ -116,9 +121,10 @@ namespace scada_dispetcher_station
             //{
             //    //MessageBox.Show("ReadDM() Error: " + ex.Message + ex.Source);              !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             //}
-
+            //txtView.Text = result.ToString();
             //return result;
 
+            txtView.Text = "0";
             return 1;
         }
     }
