@@ -27,8 +27,8 @@ namespace scada_dispetcher_station
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Connect);
-            ip = FindViewById<EditText>(Resource.Layout.ip);
-            port = FindViewById<EditText>(Resource.Layout.port);
+            //ip = FindViewById<EditText>(Resource.Id.ip);
+            //port = FindViewById<EditText>(Resource.Id.port);
 
             while (isSuccessConnect)
             {
@@ -50,16 +50,17 @@ namespace scada_dispetcher_station
             StartActivity(intent);
         }
 
-
-    //public mcOMRON.OmronPLC plc;
-    //this.plc = new mcOMRON.OmronPLC(mcOMRON.TransportType.Tcp);     
+        #region tcp
+        //public mcOMRON.OmronPLC plc;
+        //this.plc = new mcOMRON.OmronPLC(mcOMRON.TransportType.Tcp);     
+#endregion
 
         public bool IsConnect(string ip, string port)
         {
             bool IsOK = false;
             if (ip == "" || port == "") return IsOK;
 
-
+            #region tcp
             //try
             //{
             //    mcomron.tcpfinscommand tcpcommand = ((mcomron.tcpfinscommand)plc.finscommand);
@@ -90,6 +91,7 @@ namespace scada_dispetcher_station
             //IsOK = true;
 
             //return IsOK;
+#endregion
             return true;
         }
 

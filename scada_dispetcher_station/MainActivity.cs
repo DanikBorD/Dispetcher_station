@@ -20,11 +20,11 @@ namespace scada_dispetcher_station
 
             Manager manager = new Manager();
 
-            changeBtn = FindViewById<Button>(Resource.Layout.changeTemperatureBtn);
+            //changeBtn = FindViewById<Button>(Resource.Layout.changeTemperatureBtn);
             changeBtn.Click += delegate
             {
-                Intent intent = new Intent(this, typeof(Setting));
-                StartActivity(intent);
+                //Intent intent = new Intent(this, typeof(Setting));
+                //StartActivity(intent);
             };
 
             // Переход к другому экрану

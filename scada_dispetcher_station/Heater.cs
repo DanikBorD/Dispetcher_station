@@ -15,8 +15,8 @@ namespace scada_dispetcher_station
 {
     class Heater
     {
-        ToggleButton btn = FindViewById<ToggleButton>(Resource.Layout.HeaterToggleButton);
-        TextView txtView = FindViewById<TextView>(Resource.Layout.HeaterTemperatureTextView);
+        //ToggleButton btn = FindViewById<ToggleButton>(Resource.Layout.HeaterToggleButton);
+        //TextView txtView = FindViewById<TextView>(Resource.Layout.HeaterTemperatureTextView);
         Connect cnn;
         public UInt16 readConditional;
         public UInt16 statusConditional;
@@ -28,6 +28,7 @@ namespace scada_dispetcher_station
 
         public async Task<bool> TurnOnOff(UInt16 onoff)
         {
+            #region tcp
             //bool result = false;
             //UInt16 dm_position = 7;
 
@@ -46,18 +47,19 @@ namespace scada_dispetcher_station
 
             //result = true;
             //return result;
+#endregion
 
-            if (onoff == 1)
-            {
-                btn.Activated = true;
-                //txtView.Text = ReadDM().ToString();
-                txtView.Text = "15";
-            }
-            else
-            {
-                btn.Activated = false;
-                txtView.Text = "-";
-            }
+            //if (onoff == 1)
+            //{
+            //    btn.Activated = true;
+            //    //txtView.Text = ReadDM().ToString();
+            //    txtView.Text = "15";
+            //}
+            //else
+            //{
+            //    btn.Activated = false;
+            //    txtView.Text = "-";
+            //}
             return true;
 
         }
@@ -65,6 +67,7 @@ namespace scada_dispetcher_station
 
         public async Task<bool> SetValue(UInt16 value)
         {
+            #region tcp
             //bool result = false;
             //UInt16 dm_position = 7;
             //byte valuebites = Convert.ToByte(value);
@@ -83,9 +86,9 @@ namespace scada_dispetcher_station
 
             //result = true;
             //return result;
+#endregion
 
-
-            txtView.Text = value.ToString();
+            //txtView.Text = value.ToString();
             return true;
         }
 
@@ -93,6 +96,7 @@ namespace scada_dispetcher_station
 
         public async Task<UInt16> ReadDM()
         {
+            #region tcp
             //UInt16 result = 0;
             //UInt16 dm_position = 120;
 
@@ -122,8 +126,9 @@ namespace scada_dispetcher_station
             //}
             //txtView.Text = result.ToString();
             //return result;
+#endregion
 
-            txtView.Text = "0";
+            //txtView.Text = "0";
             return 1;
         }
     }
